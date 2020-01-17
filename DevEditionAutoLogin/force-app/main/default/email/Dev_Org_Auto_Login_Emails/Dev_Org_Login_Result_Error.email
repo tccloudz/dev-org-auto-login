@@ -1,0 +1,7 @@
+A scheduled login attempt for Dev Org "Error during login attempt for Dev Org: {!Dev_Org_Login_Result__c.Dev_Org_Setting__c}" has failed. Details as follows:
+
+Timestamp: {!Dev_Org_Login_Result__c.CreatedDate}
+
+Error Message:  
+
+{!Dev_Org_Login_Result__c.Error_Message__c}

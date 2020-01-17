@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Dev_Org_Login_Result_Error_Alert</fullName>
+        <description>Dev Org Login Result Error Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Dev_Org_Auto_Login_Emails/Dev_Org_Login_Result_Error</template>
+    </alerts>
+</Workflow>
