@@ -20,6 +20,7 @@ global with sharing class DevOrgLoginBatch implements Database.Batchable<sObject
 	}
 
 	global Database.QueryLocator start(Database.BatchableContext BC){
+		System.debug('query: ' + query);
 		return Database.getQueryLocator(query); 
 	} 
 
